@@ -9,10 +9,12 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     a: {
       color: "var(--textLink)",
-      boxShadow: "0px 0px",
     },
     "p code": {
       fontSize: "1rem",
+    },
+    "ul, ol": {
+      marginLeft: "1.75rem",
     },
     blockquote: {
       color: "var(--textNormal)",

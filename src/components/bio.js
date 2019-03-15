@@ -40,7 +40,13 @@ function Bio() {
             <p>
               Written by{" "}
               <strong>
-                <a href={`https://twitter.com/${social.twitter}`}>{author}</a>
+                <a
+                  href={`https://twitter.com/${social.twitter}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {author}
+                </a>
               </strong>
               . I attempt to write about what I learn, kinda.
             </p>
