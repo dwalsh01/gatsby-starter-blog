@@ -31,6 +31,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              quality: 100,
             },
           },
           {
@@ -47,6 +48,7 @@ module.exports = {
           },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-remark-social-cards`,
           {
             resolve: "gatsby-remark-external-links",
             options: {
